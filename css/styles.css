@@ -1,0 +1,39 @@
+/* Globales*/
+
+.contenedor {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*header principal */
+
+.site_header.inicio {
+    background: url(../img/header.jpg);
+    height: 100vh;
+    min-height: 600px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* barra dentro del header */
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+/* enlaces */
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+}
+
+.tituloh1 {
+    color: white;
+}
