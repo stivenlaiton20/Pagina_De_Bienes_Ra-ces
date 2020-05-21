@@ -1,9 +1,23 @@
 /* Globales*/
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 .contenedor {
-    max-width: 2200px;
+    max-width: 200rem;
     margin-left: 80px;
     margin-right: 80px;
+}
+
+img {
+    max-width: 100%;
 }
 
 h1 {
@@ -21,6 +35,36 @@ h3 {
 p {
     font-size: 1.3rem;
     text-transform: capitalize;
+    font-weight: 400;
+}
+
+
+/* utilidades */
+
+
+/* botones */
+
+.boton {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 1rem 10rem;
+    margin-bottom: 4rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.boton-amarillo {
+    background-color: #e08709;
+    display: block;
+}
+
+.boton-verde {
+    background-color: #71b100;
+    padding: 24px 63px;
+    margin-right: 30px;
+    display: inline-block;
 }
 
 
@@ -48,6 +92,14 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+}
+
+
+/*titulo del header */
+
+.tituloh1 {
+    margin-top: 45rem;
+    color: white;
 }
 
 
@@ -109,4 +161,50 @@ body {
 
 .icono {
     text-align: center;
+}
+
+
+/* seccion de anuncios */
+
+.contenedor-anuncio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anuncio {
+    flex-basis: calc(33.3% -1rem);
+    border: 1px solid #b5b5b5;
+    background-color: #f5f5f5;
+    margin: 12px;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+}
+
+.contenido-anuncio h3,
+.contenido-anuncio p,
+.contenido-anuncio a {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.contenido-anunciobajar {
+    padding-bottom: 10px;
+}
+
+.redimencionarimg {
+    height: 520px;
+    width: 800px;
+    max-height: 90%;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.precio {
+    color: #71b100;
+    font-weight: 700;
+}
+
+.ver-todas {
+    display: flex;
+    justify-content: flex-end;
 }
