@@ -10,6 +10,10 @@ html {
     box-sizing: inherit;
 }
 
+.firstmayus {
+    text-transform: capitalize;
+}
+
 .contenedor {
     max-width: 200rem;
     margin-left: 80px;
@@ -62,7 +66,7 @@ p {
 
 .boton-verde {
     background-color: #71b100;
-    padding: 24px 63px;
+    padding: 18px 63px;
     margin-right: 30px;
     display: inline-block;
 }
@@ -207,4 +211,36 @@ body {
 .ver-todas {
     display: flex;
     justify-content: flex-end;
+}
+
+
+/** seccion contacto-home**/
+
+.imagen-contacto {
+    background-image: url(../img/encuentra.jpg);
+    height: 40rem;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto {
+    flex: 1;
+}
+
+.contenido-contacto {
+    color: #f5f5f5;
+    padding-left: 3rem;
+}
+
+.boton-contacto {
+    display: inline-block;
+    background-color: #e08709;
+    text-decoration: none;
+    color: #f5f5f5;
+    padding: 17px 5rem;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 3rem;
 }
