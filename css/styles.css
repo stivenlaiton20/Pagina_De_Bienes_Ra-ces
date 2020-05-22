@@ -175,6 +175,8 @@
     .contenedor-anuncio {
         display: flex;
         justify-content: space-between;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
     }
     
     .anuncio {
@@ -191,6 +193,15 @@
     .contenido-anuncio a {
         margin: 1rem;
         padding: 1rem;
+    }
+    
+    .contenido-anuncio h3 {
+        font-size: 3rem;
+    }
+    
+    .contenido-anuncio-cudrado {
+        margin-bottom: 0;
+        padding-bottom: 8rem;
     }
     
     .contenido-anunciobajar {
@@ -224,6 +235,7 @@
     .ver-todas {
         display: flex;
         justify-content: flex-end;
+        padding-bottom: 1rem;
     }
     /** seccion contacto-home**/
     
