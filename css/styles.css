@@ -82,6 +82,11 @@
     }
     /*header principal */
     
+    .site_header {
+        background-color: #333333;
+        padding: 1rem 0 3rem 1rem;
+    }
+    
     .site_header.inicio {
         background: url(../img/header.jpg);
         height: 100vh;
@@ -107,6 +112,14 @@
     .seccion {
         margin-top: 2rem;
         margin-bottom: 2rem;
+    }
+    
+    .fw-300 {
+        font-weight: 300;
+    }
+    
+    .centrartexto {
+        text-align: center;
     }
     /* enlaces */
     
@@ -345,4 +358,29 @@
     
     .quitmar {
         margin-top: 0;
+    }
+    /***** internas */
+    
+    .contenido-nosotros {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 8rem;
+        margin-top: 6rem;
+    }
+    
+    .imagen {
+        margin-left: 11rem;
+    }
+    
+    .texto-nosotros {
+        padding-right: 14rem;
+        font-weight: 900;
+        font-size: 2rem;
+        margin: 0;
+        line-height: 28px;
+    }
+    
+    .texto-nosotros blockquote {
+        margin: 0;
+        margin-bottom: 2rem;
     }
