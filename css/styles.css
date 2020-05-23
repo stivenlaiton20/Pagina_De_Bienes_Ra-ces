@@ -396,3 +396,13 @@
         margin: 0;
         margin-bottom: 2rem;
     }
+    /** blog **/
+    
+    .pagina-blog {
+        display: flex;
+        margin-bottom: 6rem;
+        margin: 0;
+        padding: 0;
+        padding-left: 20rem;
+        margin-bottom: 5rem;
+    }
